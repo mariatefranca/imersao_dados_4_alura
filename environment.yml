@@ -1,0 +1,21 @@
+name: imersao_dados_4
+# channels:
+#   - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - jupyterlab
+  # A versão 7 está com um bug em que o kernel morre quando usa o shapely.
+  # - ipykernel==6.9.1
+  # - jupyter_core==4.9.2
+  # - jupyter_server==1.13.5
+  # - ipywidgets==7.6.5
+  - matplotlib
+  - seaborn
+  - shapely
+  - geopandas
+  - scikit-learn
+  - contextily
+  - conda-forge::folium
+  # - folium
