@@ -25,5 +25,5 @@ Inicialização do Jupyter
 ```
 $ jupyter lab
 ```
-Devido ao tamanho do notebook, não foi possível renderizá-lo no github. Mas, a sua renderização pode ser visualizada em:
+Devido ao tamanho do arquivo, não foi possível renderir o notebook `imersao_dados_imoveis_MTF.ipynb` no github. Mas, a sua renderização pode ser visualizada em:
 [https://nbviewer.org/github/mariatefranca/imersao_dados_4_alura/blob/main/imersao_dados_imoveis_MTF.ipynb](https://nbviewer.org/github/mariatefranca/imersao_dados_4_alura/blob/main/imersao_dados_imoveis_MTF.ipynb)
