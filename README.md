@@ -12,16 +12,18 @@ O projeto foi desenvolvido durante aulas de Imersão de Dados 4 da Alura
 Este projeto usa o `mambaforge` para gerenciar um ambiente com os pacotes necessários.
 Para utilizar o `mambaforge`, baixe o instalador em [https://github.com/conda-forge/miniforge#mambaforge](https://github.com/conda-forge/miniforge#mambaforge), instale e inicie o  "Miniforge Prompt".
 
-    Entre no repositório onde pretende clonar esse repostório e execute:
-    
+Entre no repositório onde pretende clonar o Ambiente desse repostório e execute:
+``` 
 $ conda create -n imersao_dados_4 --file conda-win-64.lock
+```
 
-
-#### Ativação do Ambiente e Inicialização do Jupyter
-    Em seguida, ative o ambiente criado:
-
+Ative o Ambiente criado:
+```
 $ conda activate imersao_dados_4
+```
+Inicialização do Jupyter
+```
 $ jupyter lab
-
+```
 Devido ao tamanho do notebook, não foi possível renderizá-lo no github. Mas, a sua renderização pode ser visualizada em:
 [https://nbviewer.org/github/mariatefranca/imersao_dados_4_alura/blob/main/imersao_dados_imoveis_MTF.ipynb](https://nbviewer.org/github/mariatefranca/imersao_dados_4_alura/blob/main/imersao_dados_imoveis_MTF.ipynb)
